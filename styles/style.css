@@ -1,0 +1,92 @@
+*{ /* aplicar en todo*/
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background: #f3f5fc;
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;  /* alinear el contenido de la interfaz*/
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+#text-left {
+    border: none;
+    color: #0A3871;
+    margin-top: 5%;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: #0A3871;}
+    #text-left{
+        outline: none;
+   }
+
+#text-right{
+    background: white;
+    background-image: url("/imagenes/Munheco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#resulado:focus{
+    outline: none;
+}
+
+#botones{
+    display: flex;
+    margin-top: 18px ;
+}
+
+#boton-encriptar{
+    background-color: #0A3871;
+    border: #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+#boton-desencriptar{
+    background-color: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+#boton-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 108px;
+    margin-top: 482px;
+    height: 67px;
+    width: 328px;
+}
+
+#informacion{
+    color: #495057;
+    font-size: 18px;
+}

@@ -1,10 +1,47 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
-<html>
-    <head>
+    <title>Encriptador Alura</title>
+</head>
 
-    </head>
-    <body>
-        <p>Hello World</p>
-    </body>
+<body>
+    
+    <header>
+        <img src="imagenes/Logo.png" alt="logo-alura" class="logo">
+    </header>
+
+    <main>
+        <section id="text-left">
+            <textarea  cols="30" rows="10" id="texto" required placeholder="Ingrese el texto aqui"></textarea>    
+
+            <div>
+                <p id="informacion">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div id="botones">
+                <button id="boton-encriptar">Encriptar</button>
+                <button id="boton-desencriptar">Desencriptar</button>  
+            </div>    
+
+        </section>
+
+        <section id="text-right">
+            <textarea cols="20" rows="10" id="resultado" required></textarea>
+        </section>
+
+        <div>
+            <button id="boton-copiar">Copiar</button>  
+        </div>
+
+    </main>
+</body>
 </html>
